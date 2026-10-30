@@ -1,0 +1,88 @@
+{
+  "best_algorithm": "EP",
+  "best_fitness": 137526.0,
+  "students": 390,
+  "branch_sizes": {
+    "CS": 390,
+    "AM": -42,
+    "AD": -42,
+    "CB": -42,
+    "IS": -42,
+    "CI": -42
+  },
+  "exams": 73,
+  "sessions": 12,
+  "rooms_per_session": 40,
+  "room_capacity": 60,
+  "population": 12,
+  "generations": 3,
+  "seed": 23,
+  "comparison": [
+    {
+      "algorithm": "GA",
+      "fitness": 141751.0,
+      "hard_conflicts": 0,
+      "back_to_back_pairs": 1365,
+      "load_imbalance": 5251.0,
+      "session_loads": [
+        325,
+        325,
+        260,
+        260,
+        195,
+        195,
+        130,
+        325,
+        130,
+        260,
+        130,
+        260
+      ],
+      "runtime_seconds": 0.041
+    },
+    {
+      "algorithm": "ES",
+      "fitness": 145435.0,
+      "hard_conflicts": 0,
+      "back_to_back_pairs": 1430,
+      "load_imbalance": 2435.0,
+      "session_loads": [
+        130,
+        260,
+        260,
+        325,
+        195,
+        260,
+        195,
+        260,
+        260,
+        195,
+        195,
+        260
+      ],
+      "runtime_seconds": 0.043
+    },
+    {
+      "algorithm": "EP",
+      "fitness": 137526.0,
+      "hard_conflicts": 0,
+      "back_to_back_pairs": 1365,
+      "load_imbalance": 1026.0,
+      "session_loads": [
+        195,
+        260,
+        260,
+        260,
+        195,
+        260,
+        260,
+        260,
+        195,
+        195,
+        195,
+        260
+      ],
+      "runtime_seconds": 0.076
+    }
+  ]
+}
